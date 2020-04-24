@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Pacifico&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  margin-right: 0px;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: #eee;
+  background-color:#191414;
+  padding: 0 16px;
+}
+
+/* header {
+  background-color: #000000;
+  margin: auto -32px;
+  padding: 15px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  border-bottom: 10px;
+ 
+} */
+
+header h1 {
+  color: #fff;
+  font-family: "Pacifico", cursive;
+  font-weight: 200;
+  padding: 30px 40px;
+}
+
+button {
+  margin: 15px;
+}
+
+.start-buttons {
+  padding: 10px;
+}
+main {
+  min-height: 100vh;
+  padding:25px;
+}
+.App {
+   background-color: #191414;
+   padding: 25px;
+}
+.music-box {
+  background-color: #191414;
+  padding: 1% 20%;
+}
+.box {
+  position: relative;
+  border-radius: 16px;
+  padding:25px;
+  background-color: #1DB954;
+  font-size: 30px;
+  font-weight: 100;
+  border-bottom: 10px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 20px 20px 20px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.loader {
+  padding: 25px;
+  margin-top: 20px;
+}
+
+.img-loading {
+  padding: 20px;
+}
+.imgo {
+  transition: 0.4s ease;
+  box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+  -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+  -o-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+  -webkit-animation: icon-spin 2s infinite linear;
+    animation: icon-spin 6s infinite linear;
+}
+
+@-webkit-keyframes icon-spin {
+0% {
+-webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+}
+100% {
+-webkit-transform: rotate(359deg);
+      transform: rotate(359deg);
+}
+}
+
+@keyframes icon-spin {
+0% {
+-webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+}
+100% {
+-webkit-transform: rotate(359deg);
+      transform: rotate(359deg);
+}
+
+}
+.loading {
+  padding: 5px;
+}
