@@ -1,68 +1,147 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+   <a>
+    <img alt = "React" src="https://img.icons8.com/color/144/000000/react-native.png"/> <img src="https://img.icons8.com/plasticine/100/000000/plus-math.png" styles="margin-bottom:50px"/> <img src="https://img.icons8.com/color/144/000000/spotify--v1.png"/>
+  </a>
+</p>
+<h1 align="center">
+  SpotifyGO : A React Spotify Connector 😎
+</h1>
 
-## Available Scripts
+<p align="center">
+  <a href="https://github.com/Uyadav207/Covid-19/blob/gh-pages/LICENSE.md">
+   <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="weatherly-react-app: Weatherly is released under the MIT license." />
+   </a>
+ <a href="https://github.com/Uyadav207/Covid-19/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" /></a>
+  <a href="https://github.com/Uyadav207"><img alt="GitHub followers" src="https://img.shields.io/github/followers/Uyadav207?label=Follow&style=social">
+    </a>
+</p>
 
-In the project directory, you can run:
 
-### `yarn start`
+SpotifyGo : A Music Web Player application made with react and Spotify Web api and Spotify Music SDK. Now you can control your music from your computer or anywhere from the web but.....You need your Spotify credentials Right....😜. after login to your Spotify you have to Select **SpotifyGo-by Utkarsh** from the spotify connect icon <img src="https://github.com/Uyadav207/SpotifyGo/blob/master/spotconnector.png" width="20"> 
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Getting Started
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+* Fork the [Repository](https://github.com/Uyadav207/SpotifyGo) ans star it as well. ⭐
+* Now Head On to your repository section and download a zip or Open on Desktop **Recommended** (Open On Desktop).
+* Or Follow the Step : Copy The code Below 👇👇👇👇
+ * Open a Terminal
+```
+git clone <FileName.git>
+cd SpotifyGo
+code . / atom .
+```
+* use `code . ` for [VsCode](https://code.visualstudio.com/)
+* use `atom .` for [Atom](https://atom.io/)
 
-### `yarn test`
+## Prerequisites
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Node.js should be installed in your local Machines
+* Requires [ReactJS](https://reactjs.org/) <img src="https://img.icons8.com/color/144/000000/react-native.png" alt="Reactjs" width="20px">
+* The Geek forking should know how to use routing and API's Fetching ? ... If not Head On to [Fetching Reacy API's](https://www.youtube.com/watch?v=T3Px88x_PsA)<img src="https://img.icons8.com/color/144/000000/react-native.png" alt="Reactjs" width="30px">
+* Hands on to axios Function from npm Libraries..
+* The Geek Requesting merge should Document the Modifications in [Modifications.md](MODIFICATION.md)
 
-### `yarn build`
+## Installing SERVER--AUTHORIZATION_CODE
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+###Follow the Steps Below to Install the Packages Required only for the server...
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```
+cd SpotifyGo/authorization_code
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm install
 
-### `yarn eject`
+nodemon app.js
+```
+* if any error occurs : Do install the Packages seperately like Below:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+npm install {Name of the dependencies--Given in package.json file}
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+* Wait Until installation is Finished..........Now follow the steps below.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Installing CLIENT--REACT/UI INTERFACE
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+### Follow the Steps Below to Install the Packages Required only for the server...
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Do install the Packages seperately like Below:
+```
+cd SpotifyGo/client
+npm install react 
+npm install react-dom 
+npm install react-fontawesome 
+npm install react-scripts 
+npm install react-spotify-web-playback 
+npm install reactstrap 
+npm install spotify-web-api-js 
+npm install spotify-web-api-node
+```
+* Using VsCode
+```
+code .
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Using Atom
+```
+atom .
+```
 
-### Code Splitting
+## Running the tests
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+To run the test on Your Local Environment.
+ * Running client
+ ```
+ npm start
+ ```
+ or
+ ```
+ yarn start
+ ```
+ * Running authorization_code srever
+ ```
+ nodemon app.js 
+ ```
+## Testing time  ...👨‍💻👨‍💻👨‍💻
 
-### Analyzing the Bundle Size
+FOR CLIENT
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+* localhost:3000
 
-### Making a Progressive Web App
+FOR AUTHORIZATION_CODE
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+* localhost:8888
 
-### Advanced Configuration
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+Now You are Good to go 😜😜😍😍👌👌👌👌👌👌 You did a Great Job Folk..and eventually u Learned Bash 👨‍💻👨‍💻
 
-### Deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+## Deployment
 
-### `yarn build` fails to minify
+* 😜😜😜😜😜😜😜 SORRY NEXT TIME... NOT DEPLOYED YET ... UNDER MAINTAINANCE
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Built With
+
+* [ReactJS](https://reactjs.org/) - The web framework used for Front-End AND CLIENT.
+* [Node.js](https://nodejs.org/) - The SERVER.
+* [Spotify Web Api](https://developer.spotify.com/documentation/web-api/) - The Permission | SDK's implementations.
+
+## Author
+
+* **Utkarsh Yadav** - *Github student developer and a MERN developer* - [@Uyadav207](https://github.com/Uyadav207)
+
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the Apache License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* [Spotify-Web-API](https://developer.spotify.com/documentation/web-api/)
+* [Deploy Github Pages](https://www.youtube.com/watch?v=F8s4Ng-re0E)👈👈😍
+
+## ScreenShots 
+
+<img src="https://github.com/Uyadav207/SpotifyGo/blob/master/Ss1.jpeg"  width="300"/>
+<img src="https://github.com/Uyadav207/SpotifyGo/blob/master/Ss3.jpeg" width="300"/>
