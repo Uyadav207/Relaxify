@@ -143,5 +143,5 @@ This project is licensed under the Apache License - see the [LICENSE.md](LICENSE
 
 ## ScreenShots 
 
-<img src="https://github.com/Uyadav207/SpotifyGo/blob/master/Ss1.jpeg"  width="300"/>
-<img src="https://github.com/Uyadav207/SpotifyGo/blob/master/Ss3.jpeg" width="300"/>
+<img src="https://github.com/Uyadav207/SpotifyGo/blob/master/ss-relaxify.png"  width="300"/>
+
