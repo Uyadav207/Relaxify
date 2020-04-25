@@ -98,7 +98,7 @@ class App extends Component{
           
           </div>
 
-{/*  */}
+
 
           
     </div>
@@ -106,10 +106,11 @@ class App extends Component{
    <div classname="Player"> 
     <SpotifyPlayer           
         token={this.state.acc}
-        name = 'SpotifyGo-by Utkarsh '
+        name = 'Relaxify-by Utkarsh '
         showSaveIcon='true'
         magnifySliderOnHover='true'
         styles={{
+          height:"20",
           position: 'fixed',
           left: '0' ,
           bottom: '0' ,
@@ -120,8 +121,8 @@ class App extends Component{
           sliderColor: '#191414',
           sliderHandleColor: '#1DB954',
           saveColor: '#1DB954',
-          trackArtistColor: '#ccc',
-          trackNameColor: '#fff'
+          trackArtistColor: 'coral',
+          trackNameColor: '#191414'
       }}
     /></div>
      </main>

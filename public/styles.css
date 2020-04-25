@@ -10,18 +10,16 @@ html {
 }
 body {
   background: #eee;
-  background-color:#191414;
-  padding: 0 16px;
+  background-color: coral;
+  padding:16px;
 }
 
-/* header {
+ header {
   background-color: #000000;
-  margin: auto -32px;
-  padding: 15px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
   border-bottom: 10px;
- 
-} */
+  border-radius: 10px;
+} 
 
 header h1 {
   color: #fff;
@@ -40,20 +38,22 @@ button {
 main {
   min-height: 100vh;
   padding:25px;
+ 
 }
 .App {
-   background-color: #191414;
+   /* background-color: #191414; */
+   background-color: coral;
    padding: 25px;
 }
 .music-box {
-  background-color: #191414;
+  background-color: coral;
   padding: 1% 20%;
 }
 .box {
   position: relative;
   border-radius: 16px;
   padding:25px;
-  background-color: #1DB954;
+  background-color: coral;
   font-size: 30px;
   font-weight: 100;
   border-bottom: 10px;
