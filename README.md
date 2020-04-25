@@ -17,7 +17,7 @@
 </p>
 
 
-SpotifyGo : A Music Web Player application made with react and Spotify Web api and Spotify Music SDK. Now you can control your music from your computer or anywhere from the web but.....You need your Spotify credentials Right....😜. after login to your Spotify you have to Select **SpotifyGo-by Utkarsh** from the spotify connect icon <img src="https://github.com/Uyadav207/relaxify/blob/master/spotconnector.png" width="20"> 
+Relaxify : A Music Web Player application made with react and Spotify Web api and Spotify Music SDK. Now you can control your music from your computer or anywhere from the web but.....You need your Spotify credentials Right....😜. after login to your Spotify you have to Select **SpotifyGo-by Utkarsh** from the spotify connect icon <img src="https://github.com/Uyadav207/relaxify/blob/master/spotconnector.png" width="20"> 
 
 ## Getting Started
 
@@ -27,7 +27,7 @@ SpotifyGo : A Music Web Player application made with react and Spotify Web api a
  * Open a Terminal
 ```
 git clone <FileName.git>
-cd SpotifyGo
+cd relaxify
 code . / atom .
 ```
 * use `code . ` for [VsCode](https://code.visualstudio.com/)
@@ -37,7 +37,7 @@ code . / atom .
 
 * Node.js should be installed in your local Machines
 * Requires [ReactJS](https://reactjs.org/) <img src="https://img.icons8.com/color/144/000000/react-native.png" alt="Reactjs" width="20px">
-* The Geek forking should know how to use routing and API's Fetching ? ... If not Head On to [Fetching Reacy API's](https://www.youtube.com/watch?v=T3Px88x_PsA)<img src="https://img.icons8.com/color/144/000000/react-native.png" alt="Reactjs" width="30px">
+* The Geek forking should know how to use routing and API's Fetching ? ... If not Head On to [Fetching React API's](https://www.youtube.com/watch?v=T3Px88x_PsA)<img src="https://img.icons8.com/color/144/000000/react-native.png" alt="Reactjs" width="30px">
 * Hands on to axios Function from npm Libraries..
 * The Geek Requesting merge should Document the Modifications in [Modifications.md](MODIFICATION.md)
 
