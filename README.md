@@ -17,7 +17,7 @@
 </p>
 
 
-SpotifyGo : A Music Web Player application made with react and Spotify Web api and Spotify Music SDK. Now you can control your music from your computer or anywhere from the web but.....You need your Spotify credentials Right....😜. after login to your Spotify you have to Select **SpotifyGo-by Utkarsh** from the spotify connect icon <img src="https://github.com/Uyadav207/SpotifyGo/blob/master/spotconnector.png" width="20"> 
+SpotifyGo : A Music Web Player application made with react and Spotify Web api and Spotify Music SDK. Now you can control your music from your computer or anywhere from the web but.....You need your Spotify credentials Right....😜. after login to your Spotify you have to Select **SpotifyGo-by Utkarsh** from the spotify connect icon <img src="https://github.com/Uyadav207/relaxify/blob/master/spotconnector.png" width="20"> 
 
 ## Getting Started
 
@@ -134,7 +134,7 @@ See also the list of [contributors](https://github.com/your/project/contributors
 
 ## License
 
-This project is licensed under the Apache License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the Apache License - see the [LICENSE](LICENSE) file for details
 
 ## Acknowledgments
 
