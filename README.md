@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-  SpotifyGO : A React Spotify Connector 😎
+  Relaxify : A React Spotify Connector 😎
 </h1>
 
 <p align="center">
