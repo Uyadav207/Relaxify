@@ -112,10 +112,6 @@ FOR AUTHORIZATION_CODE
 
 * localhost:8888
 
-
-Now You are Good to go 😜😜😍😍👌👌👌👌👌👌 You did a Great Job Folk..and eventually u Learned Bash 👨‍💻👨‍💻
-
-
 ## Deployment
 
 - Deployed at [relaxify.netlify.app](https://netlify.app/)
