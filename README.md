@@ -118,7 +118,7 @@ Now You are Good to go 😜😜😍😍👌👌👌👌👌👌 You did a Great 
 
 ## Deployment
 
-* 😜😜😜😜😜😜😜 SORRY NEXT TIME... NOT DEPLOYED YET ... UNDER MAINTAINANCE
+- Deployed at [relaxify.netlify.app](https://netlify.app/)
 
 ## Built With
 
