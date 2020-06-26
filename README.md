@@ -16,6 +16,7 @@
     </a>
 </p>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1a864876-b874-475c-bde3-2ea5f461ddc2/deploy-status)](https://app.netlify.com/sites/relaxify/deploys)
 
 Relaxify : A Music Web Player application made with react and Spotify Web api and Spotify Music SDK. Now you can control your music from your computer or anywhere from the web but.....You need your Spotify credentials Right....😜. after login to your Spotify you have to Select **SpotifyGo-by Utkarsh** from the spotify connect icon <img src="https://github.com/Uyadav207/relaxify/blob/master/spotconnector.png" width="20"> 
 
