@@ -3,6 +3,7 @@ import Spotify from 'spotify-web-api-js';
 import SpotifyPlayer from 'react-spotify-web-playback';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Button } from 'reactstrap';
+import { faSpotify } from "@fortawesome/free-brands-svg-icons";
 
 
 const spotifyWebApi = new Spotify();
