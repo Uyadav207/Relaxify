@@ -1,9 +1,7 @@
-import React, { Component, useState, useEffect } from 'react';
+import React, { Component } from 'react';
 import Spotify from 'spotify-web-api-js';
 import SpotifyPlayer from 'react-spotify-web-playback';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSpotify } from "@fortawesome/free-brands-svg-icons";
-import Header from "./Header";
 import { Button } from 'reactstrap';
 
 
@@ -82,7 +80,7 @@ class App extends Component{
             {
       ((this.state.nowPlaying.image === "")
        ? '' : 
-          <img class="imgo" src = {this.state.nowPlaying.image}
+          <img alt="Icons" class="imgo" src = {this.state.nowPlaying.image}
                     style={{height:200, width: 200,borderRadius: '50%'}} 
 
                     /> )
